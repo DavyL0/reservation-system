@@ -1,6 +1,6 @@
 package com.davy.reservation_system.user_service.controller;
+import com.davy.reservation_system.user_service.DTO.LoginDTO;
 import com.davy.reservation_system.user_service.entities.User;
-import com.davy.reservation_system.user_service.repository.UserRepository;
 import com.davy.reservation_system.user_service.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -16,11 +16,11 @@ public class UserController {
 
     @PostMapping("/register")
     public User register(@RequestBody User user) {
-        return userService.save(user);
+        return userService.register(user);
     }
 
-    @PostMapping
-    public User login(@RequestBody User user) {
-        return  user.
+    @PostMapping("/login")
+    public String login(@RequestBody LoginDTO loginDTO) {
+        return  userService.login(loginDTO);
     }
 }
