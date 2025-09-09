@@ -1,5 +1,4 @@
 package com.davy.reservation_system.user_service.producer;
-
 import com.davy.reservation_system.user_service.entities.User;
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
