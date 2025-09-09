@@ -20,7 +20,7 @@ public class UserService {
     @Autowired private JwtUtil jwtUtil;
     @Autowired private UserProducer userProducer;
 
-    public User register(@RequestBody User user) {
+    public User register(User user) {
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         User savedUser = userRepository.save(user);
         userProducer.sendUserCreated(savedUser);
