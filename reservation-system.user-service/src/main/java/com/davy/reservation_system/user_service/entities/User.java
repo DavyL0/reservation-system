@@ -3,6 +3,7 @@ package com.davy.reservation_system.user_service.entities;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "users")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit moduleName="reservation-system.user-service" name="reservation-system.user-service" framework="JPA" ormUnit="reservation-system.user-service:reservation-system.user-service" defaultDataSourceId="e811e1e1-1db5-4826-a0c1-9baa99b89b84" />
+    </persistence-units>
+  </component>
+</project>
