@@ -1,6 +1,5 @@
-package com.davy.reservation_system.user_service.DTO;
+package com.davy.reservation_system.user_service.config;
 
-import com.davy.reservation_system.user_service.DTO.JwtUtil;
 import com.davy.reservation_system.user_service.entities.User;
 import com.davy.reservation_system.user_service.repository.UserRepository;
 import jakarta.servlet.FilterChain;

@@ -1,6 +1,5 @@
-package com.davy.reservation_system.user_service.DTO;
+package com.davy.reservation_system.user_service.config;
 
-import com.davy.reservation_system.user_service.DTO.JwtAuthenticationFilter;
 import jakarta.servlet.Filter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

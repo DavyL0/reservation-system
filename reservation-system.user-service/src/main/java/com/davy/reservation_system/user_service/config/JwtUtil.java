@@ -1,4 +1,4 @@
-package com.davy.reservation_system.user_service.DTO;
+package com.davy.reservation_system.user_service.config;
 
 import com.davy.reservation_system.user_service.entities.User;
 import io.jsonwebtoken.Jwts;
