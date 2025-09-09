@@ -96,6 +96,10 @@
             <artifactId>reservation-system.reservation-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.amqp</groupId>
+            <artifactId>spring-amqp</artifactId>
+        </dependency>
     </dependencies>
 	<dependencyManagement>
 		<dependencies>
